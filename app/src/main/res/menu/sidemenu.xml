@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="login" />
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/ic_baseline_directions_bike_24"
+            android:title="bike" />
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/ic_baseline_airplanemode_active_24"
+            android:title="airplane" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_baseline_directions_bus_24"
+            android:title="Bus" />
+
+
+    </group>
+    <item android:title="login success">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/loginsucc"
+                    android:icon="@drawable/ic_baseline_pageview_24"
+                    android:title="share" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
