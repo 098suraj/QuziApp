@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/drawable/button_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/drawable/circular_progressbar.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/drawable/editbg.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_login_success.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_details.xml" value="0.12107396149949341" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_list.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_quiz.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_result.xml" value="0.10914855072463768" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_sign_up.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_signin.xml" value="0.10914855072463768" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_splash.xml" value="0.12107396149949341" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/layout/headerfile.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FireBase/app/src/main/res/menu/sidemenu.xml" value="0.1" />

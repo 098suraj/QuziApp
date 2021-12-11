@@ -17,16 +17,16 @@ FirebaseAuth auth;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_success);
-        logout=findViewById(R.id.logout);
+       // logout=findViewById(R.id.logout);
         auth=FirebaseAuth.getInstance();
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                auth.signOut();
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        logout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                auth.signOut();
+//                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }

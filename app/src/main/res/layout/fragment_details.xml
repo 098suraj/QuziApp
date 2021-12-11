@@ -2,37 +2,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/purple"
     android:layout_height="match_parent"
+    android:background="@color/purple"
     tools:context=".Views.DetailsFragment">
 
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="220dp"
-    android:scaleType="centerCrop"
-    android:id="@+id/image"
-    tools:src="@tools:sample/avatars" />
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/detailFragmentTitle"
-    android:text="TextView"
-    android:textColor="@color/white"
-    android:textSize="20sp"
-    android:layout_below="@+id/image"
-    android:layout_marginTop="20dp"
-    android:layout_marginStart="32dp"
-    android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars" />
+
     <TextView
+        android:id="@+id/detailFragmentTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Difficulty"
-        android:id="@+id/textView5"
-        android:textSize="16sp"
-        android:layout_below="@+id/detailFragmentTitle"
-        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image"
         android:layout_marginStart="32dp"
-        android:textStyle="bold"/>
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailFragmentTitle"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Difficulty"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView6"
@@ -43,17 +45,18 @@
         android:layout_marginTop="32dp"
         android:text="Total Questions :"
         android:textSize="16sp" />
+
     <TextView
         android:id="@+id/detailFragmentDifficulty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/detailFragmentTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:text="NA"
-        android:layout_below="@+id/detailFragmentTitle"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentEnd="true"
         android:textColor="@color/white"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/detailFragmentQuestions"
@@ -66,15 +69,21 @@
         android:text="NA"
         android:textColor="@color/white"
         android:textSize="16sp" />
+
     <Button
         android:id="@+id/startQuizBtn"
         android:layout_width="420dp"
         android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:backgroundTint="@color/light_sky"
-        android:text="Start Quiz"
-        android:layout_below="@+id/textView6"
-        android:layout_centerHorizontal="true"
+        android:text="Start Quiz" />
+    <ProgressBar
+        android:id="@+id/detailProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
